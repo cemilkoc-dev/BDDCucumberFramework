@@ -18,7 +18,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         //Path to your feature file
         features = "src/test/resources/features",
         // Specify tags to be executed
-        tags = "@login or @dt",
+        tags = "@login",
         //Specify step definition package name (Note: make sure to have this package on current directory)
         glue = "com.saucelabs.stepdefinitions"
 
