@@ -10,7 +10,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions(
 
         // This creates cucumber reports
-        plugin = {"pretty", "html:target/site/cucumber-pretty.html", "json:target/cucumber-html-reports/cucumber.json", "junit:target/cucumber-xml-reports/cucumber.xml"},
+        plugin = {"pretty", "html:target/site/cucumber-pretty.html", "json:target/cucumber.json", "junit:target/cucumber-xml-reports/cucumber.xml"},
         //This create auto method name in camelCase
         snippets = CAMELCASE,
         monochrome = true,
